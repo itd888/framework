@@ -1,0 +1,40 @@
+{
+    "name": "itd/framework",
+    "description": "The ITD Framework.",
+    "keywords": [
+        "framework"
+    ],
+    "homepage": "",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "itd888",
+            "email": "itd888.work@gmail.com"
+        },
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+
+    },
+    "require-dev": {
+  
+    },
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "itd\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "itd\\tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
